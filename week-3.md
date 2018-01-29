@@ -23,5 +23,47 @@ Indeed in what we called "unknown" words there are 2 kinds of words: `unknown` w
 
 # 
 
-We calculate the frequency of the words \(segmentation\) result under two different conditions `HMM=False` \(stored in `no.txt` \) and `HMM=True` \(stored in `yes.txt` \). We focus more on the condition `HMM=True` , where unknown words will occur. `jieba` does not provide any function interface for determining whether a word is `unknown` . We simply compare the words in `no.txt` and `yes.txt` with the ones in lexicon, and those which do no occur in lexicon are stored in `un-no.txt` and `un-yes.txt` respectively. In principle, `un-no.txt` should only contain `unseen` words. Therefore, words occur in `un-yes.txt` but not in `un-no.txt` can be considered as `unknown` words.
+We calculate the frequency of the words \(segmentation\) result under two different conditions `HMM=False` \(stored in `no.txt` \) and `HMM=True` \(stored in `yes.txt` \). We focus more on the condition `HMM=True` , where unknown words will occur. `jieba` does not provide any function interface for determining whether a word is `unknown` . We simply compare the words in `no.txt` and `yes.txt` with the ones in lexicon, and those which do no occur in lexicon are stored in `un-no.txt` and `un-yes.txt` respectively. In principle, `un-no.txt` should only contain `unseen` words. Therefore, words occur in `un-yes.txt` but not in `un-no.txt` can be considered as `unknown` words. Here are some samples:
+
+`unknown.txt` :
+
+> word       freq
+>
+> -------        ------
+>
+> 樓主	110601
+>
+> 好過	55874
+>
+> 仲要	53124
+>
+> 出黎	47381
+>
+> 我會	46479
+>
+> 試下	41055
+>
+> 部機	40870
+
+`unseen.txt` :
+
+word       freq
+
+> -------        ------
+>
+> 首歌	92349
+>
+> 版主	80416
+>
+> 小弟	79238
+>
+> 射手座	56865
+>
+> 哈哈	53937
+>
+> 中意	43392
+>
+> 一班	42598
+
+
 
