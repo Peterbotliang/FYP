@@ -67,11 +67,9 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 
 In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the Words with its frequency higher than 1000 are reasonable words. The number of them in this text is around 5000. In terms of "How to select appropriate words from them", it needs further study.
 
-
-
 ### Lexicon
 
-* Number of Single Character: 
+* Number of Single Character: 12318
 
 
 
