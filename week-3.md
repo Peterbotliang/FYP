@@ -27,7 +27,7 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 
 `unknown.txt`:
 
-\[heading\]\(\#test\)
+\[jieba\]\([https://github.com/fxsjy/jieba](https://github.com/fxsjy/jieba)\)
 
 > word   freq
 >
