@@ -27,9 +27,7 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 
 `unknown.txt`:
 
-```
- [heading](#test)
-```
+\[heading\]\(\#test\)
 
 > word   freq
 >
