@@ -25,7 +25,9 @@ Indeed in what we called "unknown" words there are 2 kinds of words: `unknown` w
 
 We calculate the frequency \(times it occurs\) of the words segmentation result under two different conditions `HMM=False` \(stored in `no.txt` \) and `HMM=True` \(stored in `yes.txt` \). We focus more on the condition `HMM=True` , where unknown words will occur. `jieba` does not provide any function interface for determining whether a word is `unknown` . We simply compare the words in `no.txt` and `yes.txt` with the ones in lexicon, and those which do no occur in lexicon are stored in `un-no.txt` and `un-yes.txt` respectively. In principle, `un-no.txt` should only contain `unseen` words. Therefore, words occur in `un-yes.txt` but not in `un-no.txt` can be considered as `unknown` words. Here are some samples:
 
-`unknown.txt` \[unknown.txt\]\(https://github.com/fxsjy/jieba\) :
+`unknown.txt`:
+
+\[ 121\]\(\) 
 
 > word   freq
 >
