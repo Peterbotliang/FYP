@@ -42,6 +42,8 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 > 試下    41055
 >
 > 部機    40870
+>
+> ...
 
 `unseen.txt` :
 
@@ -62,6 +64,8 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 > 中意    43392
 >
 > 一班    42598
+>
+> ...
 
 In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the Words with its frequency higher than 1000 are reasonable words. The number of them in this text is around 5000. In terms of "How to select appropriate words from them", it needs further study.
 
