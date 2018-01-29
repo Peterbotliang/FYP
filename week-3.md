@@ -27,7 +27,7 @@ We calculate the frequency of the words \(segmentation\) result under two differ
 
 `unknown.txt` :
 
-> word       freq
+> word   freq
 >
 > ---
 >
@@ -47,9 +47,9 @@ We calculate the frequency of the words \(segmentation\) result under two differ
 
 `unseen.txt` :
 
-> word       freq
+> word   freq
 >
-> ------------------
+> ---
 >
 > 首歌    92349
 >
