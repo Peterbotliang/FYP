@@ -49,7 +49,7 @@ We calculate the frequency of the words \(segmentation\) result under two differ
 
 > word       freq
 >
-> -
+> ------------------
 >
 > 首歌    92349
 >
@@ -64,8 +64,6 @@ We calculate the frequency of the words \(segmentation\) result under two differ
 > 中意    43392
 >
 > 一班    42598
-
-
 
 
 
