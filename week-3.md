@@ -65,6 +65,10 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 
 In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the Words with its frequency higher than 1000 are reasonable words. The number of them in this text is around 5000. In terms of "How to select appropriate words from them", it needs further study.
 
+### Textrank
+
+`jieba` provides textrank implementation for keyword extraction `jieba.analyse.textrank(sentence, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v'))` . It may be used to compare with the `unknown` words we find to see whether they are really "reasonable"
+
 ### Lexicon
 
 * Number of Single Character: 12318
