@@ -27,7 +27,7 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 
 `unknown.txt`:
 
-\[ 121\]\(\) 
+\[121\] \(../\)
 
 > word   freq
 >
