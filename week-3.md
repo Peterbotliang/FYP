@@ -68,6 +68,7 @@ In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the 
 ### Lexicon
 
 * Number of Single Character: 12318
+* This is \[an example\]\(http://example.com/ "Title"\) inline link.
 
 
 
