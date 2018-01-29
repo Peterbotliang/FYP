@@ -1,4 +1,4 @@
 # FYP
 
-This are the notes of FYP
+These are the notes of FYP
 
