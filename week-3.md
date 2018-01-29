@@ -63,7 +63,7 @@ We calculate the frequency \(times it occurs\) of the words segmentation result 
 >
 > 一班    42598
 
-In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the Words with its frequency higher than 1000 are reasonable words. The number of them in this text is around 5000. In terms of "How to select appropriate words from them", it needs further study. \[1\]\(https://github.com/fxsjy/jieba\) 
+In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the Words with its frequency higher than 1000 are reasonable words. The number of them in this text is around 5000. In terms of "How to select appropriate words from them", it needs further study.
 
 ### Lexicon
 
