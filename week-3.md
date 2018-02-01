@@ -73,9 +73,7 @@ In fact, in `unseen.txt` there are still some `unknown` words. About 80% of the 
 
 `jieba` provides textrank implementation for keyword extraction `jieba.analyse.textrank(sentence, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v'))` . It may be used to compare with the `unknown` words we find to see whether they are really "reasonable"
 
-### Lexicon
-
-* Number of Single Character: 12318
+### 
 
 
 
