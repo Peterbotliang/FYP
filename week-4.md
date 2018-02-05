@@ -28,9 +28,8 @@ In IRSTLM, it can be computed with:
 
 > compile-lm train.lm --eval=test
 
-Note that in computing perplexities, the N-gram model P must be constructed without any knowledge of the test set or any prior knowledge of the vocabulary of the test set. Any kind of knowledge of the test set can cause the perplexity to be artificially low. The perplexity of two language models is only comparable if they use identical vocabularies.
-
-
-
-
+Note that in computing perplexities, the N-gram model P must be constructed without any knowledge of the test set or any prior knowledge of the vocabulary of  
+ the test set. Any kind of knowledge of the test set can cause the perplexity to be  
+ artificially low. The perplexity of two language models is only comparable if they  
+ use identical vocabularies.
 
