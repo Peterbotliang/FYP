@@ -20,9 +20,7 @@ Perplexity is an intrinsic evaluation of the Language Model \(LM\), compared wit
 
 $$PP(W)=\sqrt[N]{\frac{1}{w_{1}w_{2}...w{N}}}$$
 
-The higher the conditional probability of the word sequence, the lower the perplexity. Thus, minimizing perplexity is
-
-equivalent to maximizing the test set probability according to the language model.
+The higher the conditional probability of the word sequence, the lower the perplexity. Thus, minimizing perplexity is equivalent to maximizing the test set probability according to the language model.
 
 In IRSTLM, it can be computed with:
 
