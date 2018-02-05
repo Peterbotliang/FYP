@@ -14,7 +14,7 @@ It contains two parts. One is from the original lexicon from DSP-Lab that has ar
 * Delete useless punctuation, like brackets, quotation marks. \(Needs further improvement, as Chinese punctuation has so many formats\)
 * Pruning?
 
-### Perplexity$$$$
+### Perplexity
 
 Perplexity is an intrinsic evaluation of the Language Model \(LM\), compared with the extrinsic evaluation, which evaluate the performance of a language model by embedding it in an application and measuring how much the application improves. Extrinsic evaluation is the best way, but it is too expensive.
 
